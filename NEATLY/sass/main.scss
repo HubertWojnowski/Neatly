@@ -1,0 +1,106 @@
+@use '../sass/colors' as *;
+@use '../sass/animations' as *;
+
+.hamburger {
+    display: flex;
+    justify-content: space-between;
+    background-color:#ffffff;
+
+    .fa-chart-simple, .fa-bars {
+        font-size: 2rem;
+        padding: 10px;
+        color: $black;
+        background-color: #ffffff;
+    }
+
+    .logo_text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 2rem;
+        color: $black;
+    }
+}
+
+
+.nav_bar_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 50vh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        height: 45vh;
+        width: 90vw;
+        font-size: 2rem;
+        background-color: #ffffff;
+        border-radius: 25px;
+    }
+
+    .nav_bar_btn {
+        padding: 8px;
+        margin: 10px;
+        font-size: 1.6rem;
+        background-color: #ffffff;
+        color: $black;
+        border: 1px solid $main-first;
+        border-radius: 25px;
+    }
+
+    li {
+      padding: 8px; 
+    }
+
+    a:link {
+    color: $main-first;
+    }
+
+    a:visited {
+      color: $black;
+    }
+
+    a:hover {
+      color: $main-first;
+    }
+
+    a:active {
+      color: $main-first;
+    }
+}
+
+
+
+.is_active {
+    display: none;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
