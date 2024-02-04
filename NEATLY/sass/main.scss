@@ -60,6 +60,10 @@
         border-radius: 25px;
     }
 
+    .nav_bar_btn:active {
+      background-color: $main-first;
+    }
+
     li {
       padding: 8px; 
     }

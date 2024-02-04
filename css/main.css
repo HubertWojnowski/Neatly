@@ -74,6 +74,9 @@
   border: 1px solid #ff5431;
   border-radius: 25px;
 }
+.nav_bar_list .nav_bar_btn:active {
+  background-color: #ff5431;
+}
 .nav_bar_list li {
   padding: 8px;
 }
