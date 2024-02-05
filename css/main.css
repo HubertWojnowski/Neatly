@@ -110,8 +110,10 @@
   }
   .nav_bar_list .nav_bar_btn {
     font-size: 1.2rem;
+    font-weight: bold;
     margin: 0;
     padding: 0;
+    transition: background-color 0.3s;
   }
   .nav_bar_list .logo_text {
     display: flex;
@@ -119,6 +121,15 @@
     width: 80px;
     font-size: 2rem;
     font-weight: 700;
+  }
+  .nav_bar_list .nav_bar_btn:hover {
+    background-color: #ff5431;
+  }
+  .nav_bar_list a {
+    transition: color 0.2s;
+  }
+  .nav_bar_list a:hover {
+    color: #ff5431;
   }
 }
 .is_active {
