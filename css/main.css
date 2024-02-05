@@ -49,9 +49,6 @@
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  height: 50vh;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 .nav_bar_list ul {
   display: flex;
@@ -59,15 +56,15 @@
   align-items: center;
   justify-content: center;
   list-style: none;
-  height: 45vh;
-  width: 90vw;
   font-size: 2rem;
   background-color: #ffffff;
-  border-radius: 25px;
 }
 .nav_bar_list .nav_bar_btn {
+  text-wrap: nowrap;
   padding: 8px;
   margin: 10px;
+  width: 120px;
+  height: 40px;
   font-size: 1.6rem;
   background-color: #ffffff;
   color: #0d0d0d;
@@ -86,13 +83,44 @@
 .nav_bar_list a:visited {
   color: #0d0d0d;
 }
-.nav_bar_list a:hover {
-  color: #ff5431;
-}
 .nav_bar_list a:active {
   color: #ff5431;
 }
 
+@media (max-width: 768px) {
+  .logo_text {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .nav_bar_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+  }
+  .nav_bar_list ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+  }
+  .nav_bar_list .nav_bar_btn {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .nav_bar_list .logo_text {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
 .is_active {
   display: none;
 }/*# sourceMappingURL=main.css.map */
