@@ -87,6 +87,34 @@
   color: #ff5431;
 }
 
+.hero_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_section h1 {
+  font-size: 4rem;
+  padding: 20px 10px 40px;
+}
+.hero_section span {
+  display: block;
+  background: #FF5431;
+  background: linear-gradient(to right, #FF5431 0%, #ffd027 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero_section .hero_img {
+  display: flex;
+  justify-content: center;
+}
+.hero_section img {
+  width: 300px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  border-radius: 25px;
+}
+
 @media (max-width: 768px) {
   .logo_text {
     display: none;
