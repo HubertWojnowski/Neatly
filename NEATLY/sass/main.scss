@@ -82,6 +82,7 @@
 
 .hero_section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -167,35 +168,44 @@
   }
 
   .hero_section {
-  
-  h1 {
-    font-size: 6rem;
-    text-align: right;
-  }
-
-  .hero {
     display: flex;
-    flex-direction: row;
-    padding: 40px 30px;
-  }
+    flex-direction: column;
 
-  span {
-    display: inline;
+    .hero {
+      display: flex;
+      flex-direction: row;
+      padding-top: 40px;
 
-  }
+      h1 {
+        font-size: 7rem;
+        text-align: right;
+        padding: 10px 10px 0;
+        margin-right: 10px;
+      }
+    
+      img {
+        width: 260px;
+        height: 160px;
+       }
+    }
 
-  img {
-    width: 260px;
-    height: 160px;
-    float: left;
-   }
+    h1 {
+      font-size: 6rem;
+      padding: 0;
+    }
+  
+  
   
 }
+}
+
+@media(min-width: 1200px){
+
 }
 
 
 .is_active {
-    display: none;
+  display: none;
 }
 
   
