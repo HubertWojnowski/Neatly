@@ -154,7 +154,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding-top: 20px;
 }
 .advantages_section .advantages_imgs img {
   width: 330px;
@@ -229,9 +229,27 @@
     width: 260px;
     height: 160px;
   }
-  .hero_section h1 {
+  .hero_section span {
     font-size: 6rem;
+    padding: 0 0 100px 0;
+  }
+  .hero_section h1 {
     padding: 0;
+  }
+  .advantages_section .advantages_text {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 40px 0px 40px;
+  }
+  .advantages_section .advantages_text h2 {
+    font-size: 3rem;
+    text-align: left;
+    width: 50vw;
+  }
+  .advantages_section .advantages_imgs {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 40px;
   }
 }
 .is_active {
