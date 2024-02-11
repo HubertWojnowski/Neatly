@@ -95,6 +95,7 @@
 }
 .hero_section h1 {
   font-size: 4rem;
+  font-weight: 400;
   padding: 20px 10px;
   text-align: center;
 }
@@ -133,6 +134,7 @@
 .advantages_section .advantages_text h2 {
   padding: 30px 10px 10px;
   font-size: 4rem;
+  font-weight: 400;
   text-align: center;
 }
 .advantages_section .advantages_text .advantages_btn {
