@@ -133,7 +133,7 @@
 }
 .advantages_section .advantages_text h2 {
   padding: 30px 10px 10px;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
   text-align: center;
 }
@@ -163,6 +163,34 @@
   height: auto;
   padding: 10px;
   border-radius: 25px;
+}
+
+.resources_section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 50px 0;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+.resources_section .resources_text {
+  display: flex column;
+  padding: 30px 10px 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+.resources_section .resources_text h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.resources_section .resources_icons {
+  display: flex row;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.resources_section .resources_icons .fa-brands {
+  padding: 5px;
 }
 
 @media (max-width: 768px) {
@@ -215,6 +243,7 @@
   .hero_section {
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
   }
   .hero_section .hero {
     display: flex;

@@ -131,7 +131,7 @@
 
         h2 {
           padding: 30px 10px 10px;
-          font-size: 4rem;
+          font-size: 3rem;
           font-weight: 400;
           text-align: center;
         }
@@ -168,6 +168,38 @@
       }
     }
   }
+
+.resources_section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 50px 0;
+  text-align: center;
+  background-color: $background;
+
+  .resources_text {
+    display: flex column;
+    padding: 30px 10px 10px;
+    font-size: 2rem;
+    text-align: center;
+    
+    h2 {
+      font-size: 3rem;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+  }
+
+  .resources_icons {
+    display: flex row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+
+    .fa-brands {
+      padding: 5px;
+    }
+  }
+}
 
 @media(max-width:768px){
   .logo_text {
@@ -228,6 +260,7 @@
   .hero_section {
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
 
     .hero {
       display: flex;
