@@ -201,6 +201,10 @@
   }
 }
 
+.solutions {
+  background-color: $background;
+}
+
 @media(max-width:768px){
   .logo_text {
     display: none;
