@@ -194,7 +194,36 @@
 }
 
 .solutions {
+  display: flex;
+  justify-content: center;
   background-color: #f0f0f0;
+}
+.solutions .solutions_text {
+  text-align: center;
+  font-size: 2rem;
+  padding: 30px 0;
+}
+.solutions .solutions_squares {
+  display: flex column;
+}
+.solutions .solutions_squares .square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 30px;
+  width: 280px;
+  height: 220px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.solutions .solutions_squares .square i {
+  font-size: 4rem;
+  padding-bottom: 60px;
+}
+.solutions .solutions_squares .square p {
+  font-size: 2rem;
+  max-width: 200px;
 }
 
 @media (max-width: 768px) {
