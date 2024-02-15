@@ -234,6 +234,47 @@
   flex-direction: column;
   align-items: center;
 }
+.pricing .pricing_plans li {
+  list-style: none;
+}
+.pricing .pricing_plans .pricing_card {
+  display: flex column;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  background: radial-gradient(circle at 100% 100%, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 0% 0%/15px 15px no-repeat, radial-gradient(circle at 0 100%, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 100% 0%/15px 15px no-repeat, radial-gradient(circle at 100% 0, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 0% 100%/15px 15px no-repeat, radial-gradient(circle at 0 0, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 100% 100%/15px 15px no-repeat, linear-gradient(#f0f0f0, #f0f0f0) 50% 50%/calc(100% - 10px) calc(100% - 30px) no-repeat, linear-gradient(#f0f0f0, #f0f0f0) 50% 50%/calc(100% - 30px) calc(100% - 10px) no-repeat, linear-gradient(317deg, transparent 0%, #ffd027 0%, #ff5431 57%);
+  border-radius: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.pricing .pricing_plans .pricing_card .pricing_card_title {
+  padding: 20px;
+  font-size: 3rem;
+}
+.pricing .pricing_plans .pricing_card .pricing_card_title h4 {
+  padding-bottom: 20px;
+}
+.pricing .pricing_plans .pricing_card .pricing_card_title h5 {
+  padding-bottom: 8px;
+}
+.pricing .pricing_plans .pricing_card .pricing_card_title p {
+  font-size: 1.5rem;
+}
+.pricing .pricing_plans .pricing_card .pricing_card_list {
+  display: flex column;
+  font-size: 1.8rem;
+  text-align: left;
+  padding: 0 20px;
+  line-height: 40px;
+}
+.pricing .pricing_plans .pricing_card i {
+  margin-right: 10px;
+  background-color: #ff5431;
+  border: 5px solid #ff5431;
+  border-radius: 50px;
+  color: #f0f0f0;
+}
+
 @media (max-width: 768px) {
   .logo_text {
     display: none;
