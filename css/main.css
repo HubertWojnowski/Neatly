@@ -383,6 +383,16 @@
     justify-content: center;
     max-width: 600px;
   }
+  .pricing_plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+  .pricing_plans .pricing_card {
+    margin: 0 10px;
+  }
 }
 @media (min-width: 1200px) {
   .advantages_section .advantages_text {
