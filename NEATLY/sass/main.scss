@@ -248,6 +248,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
 
   .pricing_plans {
     padding-bottom: 50px;
@@ -310,8 +313,39 @@
 
     }
   }
-
+  
 }
+
+.footer {
+display: flex;
+flex-direction: column;
+padding: 10px;
+background-color: white;
+font-size: 2rem;
+
+.up_footer {
+  padding-bottom: 20px;
+
+  .footer_list {
+    line-height: 30px;
+  }
+
+  .up_footer_mail {
+    padding-top: 20px;
+    font-size: 3rem;
+  }
+}
+
+.down_footer {
+  padding-bottom: 20px;
+
+  .socials {
+    padding-top: 20px;
+    line-height: 30px;
+  }
+}
+}
+
 
 
 

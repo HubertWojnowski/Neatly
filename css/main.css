@@ -233,6 +233,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .pricing .pricing_plans {
   padding-bottom: 50px;
@@ -277,6 +279,31 @@
   border: 5px solid #ff5431;
   border-radius: 50px;
   color: #f0f0f0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  font-size: 2rem;
+}
+.footer .up_footer {
+  padding-bottom: 20px;
+}
+.footer .up_footer .footer_list {
+  line-height: 30px;
+}
+.footer .up_footer .up_footer_mail {
+  padding-top: 20px;
+  font-size: 3rem;
+}
+.footer .down_footer {
+  padding-bottom: 20px;
+}
+.footer .down_footer .socials {
+  padding-top: 20px;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
