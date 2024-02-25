@@ -234,6 +234,9 @@
   flex-direction: column;
   align-items: center;
 }
+.pricing .pricing_plans {
+  padding-bottom: 50px;
+}
 .pricing .pricing_plans li {
   list-style: none;
 }
@@ -245,6 +248,7 @@
   background: radial-gradient(circle at 100% 100%, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 0% 0%/15px 15px no-repeat, radial-gradient(circle at 0 100%, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 100% 0%/15px 15px no-repeat, radial-gradient(circle at 100% 0, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 0% 100%/15px 15px no-repeat, radial-gradient(circle at 0 0, #f0f0f0 0, #f0f0f0 10px, transparent 10px) 100% 100%/15px 15px no-repeat, linear-gradient(#f0f0f0, #f0f0f0) 50% 50%/calc(100% - 10px) calc(100% - 30px) no-repeat, linear-gradient(#f0f0f0, #f0f0f0) 50% 50%/calc(100% - 30px) calc(100% - 10px) no-repeat, linear-gradient(317deg, transparent 0%, #ffd027 0%, #ff5431 77%);
   border-radius: 15px;
   padding: 5px;
+  margin-bottom: 20px;
   box-sizing: border-box;
 }
 .pricing .pricing_plans .pricing_card .pricing_card_title {
