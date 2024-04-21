@@ -1,12 +1,14 @@
 # Neatly
-Neatly is a simple project, which I have created to practice my SCSS skills. 
+Project Name: Neatly Analytics Landing Page
 
- It is a landing page for a data management analytics program. It was supposed to be simple and without unnecessary effects, because it's all about data. It's already complicated. I also wanted it to look modern and nice, because everyone deserves to work with nice-looking software.
-I forgot to say... it is fully responsive!
+Description:
+Neatly Analytics Landing Page is a modern, minimalist landing page created as a side project by a junior frontend developer. This page aims to present an analytical program used for data management in a clear and user-friendly manner. The project was implemented using pure HTML, CSS, and JavaScript technologies. Additionally, the SASS preprocessor was utilized for more efficient style management. The project is fully responsive, meaning it adapts to various devices and screen resolutions.
 
- In the future, I plan to improve the quality of the code and work on the fine details on the site.
+Technologies Used:
 
-STAY TUNED!!
+HTML
+CSS (including SASS)
+JavaScript
  
  I was strongly inspired by this dribble design. 
  [https://dribbble.com/shots/23522817-Ramos-BI-Just-for-rebound-shot](https://dribbble.com/shots/23449936-Ramos-redesign-Not-Awesome-feedback)https://dribbble.com/shots/23449936-Ramos-redesign-Not-Awesome-feedback
